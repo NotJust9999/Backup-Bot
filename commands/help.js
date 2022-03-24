@@ -29,7 +29,7 @@ module.exports = {
       new MessageButton()
       .setLabel('Support Server')
       .setStyle('LINK')
-      .setURL('https://discord.com/') //Support Server Link
+      .setURL('https://discord.gg/decoders') //Support Server Link
     )
 
       message.channel.send({ embeds: [embed], components: [row] })
